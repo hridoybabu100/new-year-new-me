@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+#header {
+    background-image: url(../images/banner/banner3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.hero-contant {
+   text-align: right; 
+    padding: 250px 150px ;
+}
+.hero-contant h1 {
+     font-size: 65px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0px 0 0 520px;
+}
+.hero-contant p {
+    color: #ffffff;
+    line-height: 26px;
+     margin: 0px 0 0 720px;
+}
+.hero-contant *{
+    margin-bottom: 15px;
+   
+}
+.btn {
+     background: #ffffff;
+    color: #0a6bdc;
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    border: none;
+    margin-top: 15px;
+}
+.btn:hover {
+    background: #96ab2b;
+    color: #ffffff;
+}
+
+/* year secton xode hare  */
+#year , #plan {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.year-p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.year-contant {
+    width: 420px;
+}
+.year-contant *{
+    margin-bottom: 5px;
+}
+.year-p img {
+    width: 560px;
+}
+.year-icon p,i {
+    color: #444343;
+}
+/* plan section code hare  */
+.plan-head h2 {
+    font-size: 40px;
+    margin: 40px 0px;
+    text-align: center;
+
+}
+.plan-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.plan-box {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    background-color: azure;
+    box-shadow: 3px 3px 5px 5px rgb(213, 217, 205);
+}
+.plan-box *{
+    margin-bottom: 15px;
+}
+.plan-box img {
+    width: 90px;
+    
+}
+
+
+/* call section code hare  */
+#call {
+    margin-bottom: 50px;
+    background-image: url(../images/gradient1.png),url(../images/watch.png);
+    background-position: top bottom, top bottom ;
+    background-repeat: no-repeat;
+    padding: 50px;
+    border-radius: 10px;
+}
+#foter {
+    background-color: #151414;
+    padding: 100px 0px;
+}
+#foter-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;  
+}
+.foter-contant h2{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 15px 0px;
+
+}
+.foter-contant p {
+    color: #ffffff;
+    margin: 15px 0px;
+}
+.foter-img img {
+     gap: 30px;
+    padding: 2px;
+}
+.foter-box h2 {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 15px 0px;
+}
+.name input ,[type=text] {
+    width: 400px;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+
+
+
+/* responsive  */
+@media screen and (max-width:1200px) {
+    .hero-contant {
+             text-align: right; 
+             padding: 100px 50px ;  
+    }
+    .hero-contant h1 {
+        font-size: 40px;
+         margin: 0px 0 0 400px;
+    }
+    .hero-contant p  {
+         margin: 0px 0 0 450px;
+    }
+    .container {
+        width: 70%;
+        margin: auto;
+    }
+    .year-p {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .year-contant {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width:1024px) {
+     .hero-contant h1 {
+        font-size: 30px;
+         margin: 0px 0 0 250px;
+    }
+       .container {
+        width: 90%;
+        margin: auto;
+    }
+    .hero-contant p  {
+         margin: 0px 0 0 350px;
+    }
+    .plan-p {
+        flex-wrap: wrap;
+    }
+    .plan-box {
+        width: 100%;
+    }
+    #foter-p {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .foter-contant {
+        text-align: center;
+    }
+     .foter-box {
+        text-align: center;
+    }
+      .name input ,[type=text] {
+    width: 500px;
+    padding: 20px 20px;
+    }
+}
+@media screen and (max-width:690px) {
+    .hero-contant {
+        /* padding: 250px 200px ;  */
+        padding-right: 20px;
+    }
+     .container {
+        width: 95%;
+        margin: auto;
+    }
+        .hero-contant h1 {
+        font-size: 40px;
+         margin: 0px 0 0 50px;
+         margin-bottom: 15px;
+    }
+    .hero-contant p  {
+         margin: 0px 0 0 120px;
+         font-size: 15px;
+    }
+    .year-p img {
+    width: 100%;
+    }
+    .year-contant h2 {
+        font-size: 30px;
+    }
+    .foter-contant p {
+        padding: 0px 40px;
+    }
+    .foter-box {
+        text-align: center;
+    }
+    .name input {
+       width: 300px;
+    }
+    .name input ,[type=text] {
+    width: 300px;
+    padding: 15px 20px;
+    }
+   
+}
