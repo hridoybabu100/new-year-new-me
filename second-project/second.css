@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 #header {
-    background-image: url(../images/banner/banner2.png);
+    background-image: url(../images/banner/banner1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,11 +22,11 @@
 .hero-contant h1 {
      font-size: 65px;
     font-weight: bold;
-    color: #ffffff;
+    color: #090101;
     margin: 0px 0 0 520px;
 }
 .hero-contant p {
-    color: #ffffff;
+    color: #222121;
     line-height: 26px;
      margin: 0px 0 0 720px;
 }
