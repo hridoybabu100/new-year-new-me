@@ -50,3 +50,43 @@
     color: #ffffff;
 }
 
+
+
+
+/* responsive  */
+@media screen and (max-width:1200px) {
+    .hero-contant {
+             text-align: right; 
+             padding: 100px 50px ;  
+    }
+    .hero-contant h1 {
+        font-size: 40px;
+         margin: 0px 0 0 400px;
+    }
+    .hero-contant p  {
+         margin: 0px 0 0 450px;
+    }
+}
+@media screen and (max-width:1024px) {
+     .hero-contant h1 {
+        font-size: 30px;
+         margin: 0px 0 0 250px;
+    }
+    .hero-contant p  {
+         margin: 0px 0 0 350px;
+    }
+}
+@media screen and (max-width:690px) {
+    .hero-contant {
+        /* padding: 250px 200px ;  */
+        padding-right: 20px;
+    }
+        .hero-contant h1 {
+        font-size: 30px;
+         margin: 0px 0 0 150px;
+    }
+    .hero-contant p  {
+         margin: 0px 0 0 180px;
+         font-size: 15px;
+    }
+}
